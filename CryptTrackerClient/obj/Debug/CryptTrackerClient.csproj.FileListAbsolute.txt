@@ -1,0 +1,7 @@
+C:\Users\sligh\source\repos\CryptTrackerLib\CryptTrackerClient\bin\Debug\CryptTrackerClient.exe.config
+C:\Users\sligh\source\repos\CryptTrackerLib\CryptTrackerClient\bin\Debug\CryptTrackerClient.exe
+C:\Users\sligh\source\repos\CryptTrackerLib\CryptTrackerClient\bin\Debug\CryptTrackerClient.pdb
+C:\Users\sligh\source\repos\CryptTrackerLib\CryptTrackerClient\obj\Debug\CryptTrackerClient.csprojAssemblyReference.cache
+C:\Users\sligh\source\repos\CryptTrackerLib\CryptTrackerClient\obj\Debug\CryptTrackerClient.csproj.CoreCompileInputs.cache
+C:\Users\sligh\source\repos\CryptTrackerLib\CryptTrackerClient\obj\Debug\CryptTrackerClient.exe
+C:\Users\sligh\source\repos\CryptTrackerLib\CryptTrackerClient\obj\Debug\CryptTrackerClient.pdb

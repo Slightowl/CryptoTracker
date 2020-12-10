@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptTrackerLib", "CryptTrackerLib\CryptTrackerLib.csproj", "{493A45C6-E580-4AA8-BC3D-27BD7C4A4320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptTrackerHost", "CryptTrackerHost\CryptTrackerHost.csproj", "{9465C004-34AD-4AA9-B1C7-6CD3A7F94571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptTrackerClient", "CryptTrackerClient\CryptTrackerClient.csproj", "{959B59F5-0253-4C9E-AFB2-EBBB08A987F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{493A45C6-E580-4AA8-BC3D-27BD7C4A4320} = {493A45C6-E580-4AA8-BC3D-27BD7C4A4320}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{493A45C6-E580-4AA8-BC3D-27BD7C4A4320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493A45C6-E580-4AA8-BC3D-27BD7C4A4320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493A45C6-E580-4AA8-BC3D-27BD7C4A4320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493A45C6-E580-4AA8-BC3D-27BD7C4A4320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9465C004-34AD-4AA9-B1C7-6CD3A7F94571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9465C004-34AD-4AA9-B1C7-6CD3A7F94571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9465C004-34AD-4AA9-B1C7-6CD3A7F94571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9465C004-34AD-4AA9-B1C7-6CD3A7F94571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959B59F5-0253-4C9E-AFB2-EBBB08A987F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959B59F5-0253-4C9E-AFB2-EBBB08A987F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959B59F5-0253-4C9E-AFB2-EBBB08A987F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959B59F5-0253-4C9E-AFB2-EBBB08A987F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD256138-8338-48CF-B1DD-1806334E2E36}
+	EndGlobalSection
+EndGlobal
