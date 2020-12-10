@@ -11,9 +11,11 @@ namespace CryptTrackerClient
             // Create an instance of the WCF proxy.
             Service1Client client = new Service1Client();
 
-            // Step 2: Call the service operations.
+            // Call the service operations.
             // Call the Parse service operation.
-            string input = "getall";
+            Console.Write("Enter get(Token): ");
+            string input = Console.ReadLine();
+
             string output = client.Parse(input);
             Console.WriteLine("Parse{0}", output);
 

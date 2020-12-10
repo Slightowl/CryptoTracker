@@ -13,7 +13,7 @@ namespace CryptTrackerLib
         {
             string input = s.Trim().ToLower();
 
-            if (input == "getall")
+            if (input == "getbtc")
             {
 
                 var options = new JsonSerializerOptions()
@@ -44,22 +44,22 @@ namespace CryptTrackerLib
                 return JsonSerializer.Serialize(jsonElement, options);
 
             }
-            else if (input == "getbtc")
+            else if (input == "getBTC")
             {
                 var options = new JsonSerializerOptions()
                 {
                     WriteIndented = true
                 };
 
-                var URL = new UriBuilder("https://pro-api.coinmarketcap.com/v1/cryptocurrency/map");
+                var URL = new UriBuilder("https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest");
 
                 var queryString = HttpUtility.ParseQueryString(string.Empty);
-                queryString["listing_status"] = "active";
-                queryString["start"] = "1";
+                
+                queryString["symbol"] = "BTC";
                 queryString["limit"] = "5";
                 queryString["sort"] = "id";
                 queryString["symbol"] = "BTC";
-                queryString["aux"] = "platform,first_historical_data,last_historical_data,is_active";
+                
 
                 //queryString["convert"] = "USD";
 
